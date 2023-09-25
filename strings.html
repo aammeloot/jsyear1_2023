@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>String Demo</title>
+</head>
+<body>
+
+    <script>
+
+        // String -> object
+        // data, properties and "methods"
+
+        let name = prompt("What is your full name?");
+
+        // You can transform the string using multiple methods
+
+        // e.g. uppercase / lowecase
+        // In this case, the new string is saved to a new variable
+        let stringUpper = name.toUpperCase();
+        console.log(stringUpper);
+        // The original remains untouched
+        console.log(name);
+        // In this case I overwrite the original
+        name = name.toLowerCase();
+        console.log(name.toLowerCase());
+
+
+        let story = prompt("Please tell me about your day.");
+        let words = story.split(" ");
+
+        console.log(words);
+
+        // for(let index = 0; index < words.length; index++)
+        // {
+        //     console.log(words[index]);
+        // }
+
+        // Just the first word:
+        console.log(words[0]);
+        
+
+    </script>
+    
+</body>
+</html>

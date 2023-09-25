@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IfElse</title>
+</head>
+<body>
+    
+    <h2>If / Else</h2>
+
+    <script>
+
+        "use strict";
+
+        let age;    // Age is an int
+        age = parseInt(prompt("How old are you?"));
+
+        // First check if they're too young
+        if(age < 18) {
+            console.log("You are too young to join the FCSA night. Next year maybe?");
+        }
+        else if (age < 25) {
+            console.log("You can go to the freshers' night out. Bring ID though.");
+        }
+        else if (age >= 40) {
+            console.log("Seriously it's gonna be full of freshers... make a cuppa and watch Netflix instead.");
+        }
+        else {
+            console.log("You're okay.");
+        }
+
+
+
+    </script>
+
+</body>
+</html>
